@@ -10,11 +10,17 @@ Also things like Driver Provider, Date, Version, and Signer.
 After finalizing the Windows installation, what else can you do to improve your experience?
 
 Install additional software
+
 Configure system settings
+
 Enable security features
+
 Back up the system
+
 Set up cloud storage or synchronization
+
 Organize user profiles and permissions
+
 Install peripheral drivers
 
 # 3.1.2.5 Lab - Search for BIOS or UEFI Firmware Updates

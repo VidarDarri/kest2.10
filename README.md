@@ -3,10 +3,12 @@
 # 10.3.1.1 Lab - Windows Installation (engar spurningar eru í þessu verkefni)
 
 What options are available in the Driver tab?
+
 there is Driver Details, update Driver, Roll back driver, disable device and uninstall the device.
 Also things like Driver Provider, Date, Version, and Signer.
 
 After finalizing the Windows installation, what else can you do to improve your experience?
+
 Install additional software
 Configure system settings
 Enable security features

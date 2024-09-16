@@ -126,34 +126,123 @@ Recycle Bin, This PC, Network, Documents, Shortcuts to applications.
 What type of information is available on the Desktop and Taskbar?
 
 Desktop: Files, folders, and application shortcuts. Taskbar: Open applications, system icons (battery, network, volume), Start Menu.
-Step 2: Explore the Start Menu
 
 Name a few applications listed in the Start Menu.
 
 Microsoft Edge, File Explorer, Settings, Control Panel.
+
 What are some of the available options?
 
 Pin to Start, Pin to Taskbar, Uninstall, Open File Location, More.
-Step 3: Explore the Taskbar
 
 What are the available options in the Taskbar settings?
 
 Lock the Taskbar, Auto-hide the Taskbar, Use small taskbar buttons, Taskbar location on screen, Combine taskbar buttons.
+
 What are the available options in the Task View settings?
 
 Add a New Desktop, View open windows on all desktops, Close desktops.
+
 What happened?
 
-The application appears on both desktops as separate instances.
+The application appears on both desktops.
+
 List some examples of system information.
 
 Battery status, Network status, Volume control, Clock, Action Center.
+
 What are the behavior options for the icons?
 
 Show icon and notifications, Hide icon and notifications, Only show notifications.
+
 List the system icons that can be enabled.
 
 Clock, Volume, Network, Power/Battery, Action Center.
+
 What can you do in the Notification & actions Settings window?
 
 Turn notifications on or off, Choose which apps can send notifications, Customize quick actions, Manage notification sounds, Set priorities for notifications.
+
+# 11.1.4.11 Lab - Working with File Explorer
+
+What happened with Folder1 and Folder2 on the Desktop?
+
+When you moved Folder2 into Folder1, Folder2 is now nested inside Folder1. On the Desktop, you will only see Folder1, and Folder2 is no longer directly visible but is contained within Folder1
+
+What is the file extension for the text document?
+
+The file extension for a text document is .txt
+
+How would you make a copy of the text document and place it in Folder2?
+
+Right-click on the text document and select "Copy."
+Navigate to Folder2.
+Right-click inside Folder2 and paste
+
+What are the attributes associated with this file?
+
+File size
+Date created
+Date modified
+File type
+Author
+
+What is the complete path to Folder3?
+
+C:\Users\Viðar\Desktop\Folder1\Folder2\Folder3.
+
+In Windows 8.x and 10, which directories are listed under Folders?
+
+Desktop
+Documents
+Downloads
+Music
+Pictures
+Videos
+
+What happened when you dragged and dropped Folder1 onto Quick Access (Windows 10) or Favorites (Windows 7 and 8.x)? Why would you want to do this?
+
+Dragging Folder1 to Quick Access or Favorites creates a shortcut to Folder1 in that location
+
+What are folders listed in the Local Disk (C:)?
+
+perfLogs
+Program Files
+Program Files (x86)
+Users
+Windows
+
+List all the folders in the Users directory.
+
+Public
+Viðar 
+
+oWere you able to open the folder associated with your username? Explain.
+
+Yes, This folder contains your personal files and settings.
+
+Were you able to open the folder associated with another username? Explain.
+
+no there are no other usernames
+
+List all the folders in the Public directory.
+
+Public Documents
+Public Downloads
+Public Music
+Public Pictures
+Public Videos
+
+Which folders or files are listed under the Libraries heading?
+
+Documents
+Music
+Pictures
+Videos
+
+How would you remove the directory of Folder1 from the library without deleting Folder1 and its contents from the computer?
+
+Navigate to the library in File Explorer.
+Click on the "Library Tools" tab and then "Manage library."
+Select the library you want to modify.
+Click "Remove" next to Folder1's path.

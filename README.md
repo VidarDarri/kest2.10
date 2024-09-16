@@ -76,7 +76,7 @@ What type of File System is used on the NEW VOLUME (I:)?
 FAT32
 How much Free Space is shown?
 
-Nearly 2 GB, depending on system usage during formatting.
+Its 2 GB
 
 List the tabs found in the NEW VOLUME (I:) Properties window.
 
@@ -117,5 +117,43 @@ Why is there an additional Security tab in the properties window of documents st
 
 NTFS supports file and folder permissions, allowing enhanced control over access and security features.
 
+# 11.1.2.10 Lab - Explore the Windows Desktop
 
+List some of the icons that are on the Desktop.
 
+Recycle Bin, This PC, Network, Documents, Shortcuts to applications.
+
+What type of information is available on the Desktop and Taskbar?
+
+Desktop: Files, folders, and application shortcuts. Taskbar: Open applications, system icons (battery, network, volume), Start Menu.
+Step 2: Explore the Start Menu
+
+Name a few applications listed in the Start Menu.
+
+Microsoft Edge, File Explorer, Settings, Control Panel.
+What are some of the available options?
+
+Pin to Start, Pin to Taskbar, Uninstall, Open File Location, More.
+Step 3: Explore the Taskbar
+
+What are the available options in the Taskbar settings?
+
+Lock the Taskbar, Auto-hide the Taskbar, Use small taskbar buttons, Taskbar location on screen, Combine taskbar buttons.
+What are the available options in the Task View settings?
+
+Add a New Desktop, View open windows on all desktops, Close desktops.
+What happened?
+
+The application appears on both desktops as separate instances.
+List some examples of system information.
+
+Battery status, Network status, Volume control, Clock, Action Center.
+What are the behavior options for the icons?
+
+Show icon and notifications, Hide icon and notifications, Only show notifications.
+List the system icons that can be enabled.
+
+Clock, Volume, Network, Power/Battery, Action Center.
+What can you do in the Notification & actions Settings window?
+
+Turn notifications on or off, Choose which apps can send notifications, Customize quick actions, Manage notification sounds, Set priorities for notifications.

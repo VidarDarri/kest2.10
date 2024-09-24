@@ -338,4 +338,169 @@ Which subcategory would you use to improve the computer’s ability to understan
 
 Speech Recognition
 
+# 11.2.2.3 Lab - User Accounts
+
+What can a user do with a limited account?
+
+They can run programs, browse the internet, and change some settings but can't install software or make system-wide changes.
+
+What limitations does this type of account have?
+
+They can't install programs, manage other accounts, or modify system settings.
+
+What information is listed for the new account?
+
+Username, account type (Standard or Admin), and password status.
+
+What is the advantage of having most users work within a Standard user account?
+
+It prevents unauthorized system changes, improving overall security and stability.
+
+What are the other options? When would you choose the other options?
+
+"Keep Files" – You would choose this if the user’s data is still needed, like for backup or reference purposes.
+
+Why is it important to protect all accounts with strong passwords?
+
+Strong passwords help prevent unauthorized access and protect sensitive data.
+
+Why would you create a user with Standard privileges?
+
+To limit their ability to change system settings, reducing the risk of accidental or malicious changes.
+
+In what situation would an IT administrator delete a user account and choose to keep the files?
+
+When the user leaves, but their files are still needed for work or archives.
+
+# 11.2.5.8 Lab - Manage Virtual Memory
+
+What is the current size of the virtual memory (paging file)?
+
+1024 MB.
+
+What Drive Volume Label contains the paging file?
+
+the C: drive contains the paging file.
+
+What is the recommended paging file size for all drives?
+
+The recommended size is 1.5 times the amount of installed RAM for the initial size and up to 3 times for the maximum size.
+
+What Drive Volume Label contains the paging file?
+
+the I: drive.
+
+Why would you ever change the default virtual memory page file settings in Windows?
+
+To improve performance by moving the paging file to a faster or less-used drive, or to free up space on the primary drive.
+
+# 11.2.6.2 Lab - Use Device Manager
+
+What information is listed in the Device Manager window? Why would you use it?
+
+It lists hardware devices (e.g., monitors, processors). You use it to update drivers, check hardware status, and troubleshoot issues.
+
+How would you install driver software for an older device that may not be automatically recognized by the Windows operating system?
+
+Right-click the device, select Update Driver, then choose Browse my computer for driver software to install manually.
+
+What additional information does Driver Details provide?
+
+It shows the driver file name, version, provider, and location.
+
+What two options do you have for updating the driver?
+
+Search automatically for updated driver software or Browse my computer for driver software.
+
+What does the Roll Back Driver button do? Why would it be grayed out?
+
+Roll Back Driver reverts to a previous driver version. It's grayed out if no previous version is available.
+
+What are the other available options?
+
+Disable Device, Uninstall Device, and Update Driver.
+
+# 11.3.1.11 Lab - Monitor and Manage System Resources 
+
+What is the status of the Windows Defender service?
+
+The status is Running.
+
+What is the status of Windows Defender after you turn it off?
+
+The status is Stopped.
+
+What is listed as the Source of the event and what is the severity level?
+
+Source: Windows Defender; Severity Level: Information or Warning (varies by event).
+
+
+Record a listed printer in Notepad:
+
+Printer example: Microsoft Print to PDF.
+
+What message did you receive when attempting to print with the Print Spooler stopped? How would you fix this?
+
+Message: "No printers installed."
+Fix: Restart the Print Spooler service.
+
+When DHCP Client stops, what other services will also be stopped?
+
+Services like Network Connections and Network Location Awareness also stop.
+
+Why is it important to exercise care when managing services?
+
+Stopping critical services can lead to system instability or loss of functionality.
+
+What is the full path name to the example file name?
+
+Path: C:\PerfLogs\DataCollector01.csv
+
+What does the column farthest to the right show?
+
+It shows the Available MBytes of memory.
+
+# 11.3.2.7 Lab - System Utilities
+
+What was the path you used to navigate to the Event Viewer?
+
+Windows Logs > Application or System
+
+What is the background picture?
+
+A solid blue color.
+
+What is the data value of the Background?
+
+0 0 255 (for blue).
+
+What is the data value of the Background in BlueBKG.reg?
+
+0 0 255 (for blue).
+
+What is the data value of the Background after the change to red?
+
+255 0 0 (for red).
+
+What is the data value of the Background after importing BlueBKG.reg?
+
+0 0 255 (for blue).
+
+What is the color of the desktop after importing?
+
+Blue.
+
+What is the color of the desktop after restarting?
+
+Blue.
+
+Why would it be beneficial to add snap-ins to the mmc that are for other computers on the network?
+
+It allows centralized management and monitoring of multiple computers, improving efficiency.
+
+After restarting the computer, why was the desktop color changed?
+
+The registry settings apply during boot-up, restoring the most recent settings.
+
+# 11.3.2.8 Lab - Manage System Files
 

@@ -246,3 +246,96 @@ Navigate to the library in File Explorer.
 Click on the "Library Tools" tab and then "Manage library."
 Select the library you want to modify.
 Click "Remove" next to Folder1's path.
+
+# 11.2.1.5 Lab - Explore Control Panel Categories
+
+What are the viewing options?
+
+Category
+Large icons
+Small icons
+
+Name a few of the Control Panel categories.
+
+System and Security
+Network and Internet
+Hardware and Sound
+Programs
+User Accounts
+Appearance and Personalization
+Clock and Region
+Ease of Access
+
+Which subcategory would help you troubleshoot common problems?
+
+Security and Maintenance
+
+Which subcategory allows a program through Windows Firewall?
+
+Windows Defender Firewall
+
+Which subcategory allows you to view the basic network information and set up connections?
+
+Network and Sharing Center
+
+Which subcategory allows you to choose what happens when you insert a media or device?
+
+AutoPlay
+
+Which subcategory allows you to add a printer?
+
+Devices and Printers
+
+Which subcategory would you use to have a specific file type always open in a specified program?
+
+Default Programs
+
+Which subcategory would you use to uninstall a program?
+
+Programs and Features
+
+Which subcategory would you use to install the Windows Telnet client?
+
+Turn Windows features on or off
+
+Which subcategory would you use to change the account type from administrator to standard?
+
+User Accounts → Change Account Type
+
+Which subcategory would you use to view, edit, or remove the web and Windows credentials?
+
+Credential Manager
+
+Which subcategory would you use to customize the Taskbar?
+
+Taskbar and Navigation
+
+Which subcategory would you use to show hidden files and folders?
+
+File Explorer Options → View
+
+Which subcategory would you use to show extensions for known file types?
+
+File Explorer Options → View → Uncheck "Hide extensions for known file types"
+
+Which subcategory would you use to change the time zone?
+
+Date and Time
+
+Which subcategory would you use to change date format?
+
+Region → Change date, time, or number formats
+
+Which subcategory would you use to synchronize the time on a computer with a specific web server on the Internet?
+
+Date and Time → Internet Time
+
+Which subcategory would you use to configure the computer to read aloud any text on the screen?
+
+Narrator
+
+Which subcategory would you use to improve the computer’s ability to understand your voice and improve dictation accuracy?
+
+Speech Recognition
+
+

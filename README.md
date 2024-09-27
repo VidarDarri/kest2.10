@@ -504,3 +504,290 @@ The registry settings apply during boot-up, restoring the most recent settings.
 
 # 11.3.2.8 Lab - Manage System Files
 
+Processor:
+
+AMD Ryzen 5 7600X 6-Core Processor, 4701 MHz, 6 Cores, 12 Logical Processors.
+
+BIOS Version/Date:
+
+American Megatrends International, LLC. F22b, 6.2.2024.
+
+Total Physical Memory:
+
+31.1 GB.
+
+DMA channels and the device using the resources.
+
+Channel 4	Direct memory access controller	
+
+Adapter Description:
+
+Name	[00000000] Microsoft Kernel Debug Network Adapter
+
+Adapter RAM:
+
+6gb
+
+Where would you find the applications that automatically load when the computer boots?
+
+You can find them under System Information > Software Environment > Startup Programs or in the Task Manager under the Startup tab.
+
+What are the startup options (General tab)?
+
+Normal startup: Loads all device drivers and services.
+
+Diagnostic startup: Loads basic services and drivers only.
+
+Selective startup: Allows you to choose which services and drivers to load.
+
+Can you enable and disable services at this tab (Services tab)?
+
+Yes, you can enable and disable services in the Services tab by checking or unchecking the boxes next to each service.
+
+What can you do in this tab (Tools tab)?
+
+The Tools tab provides quick access to system diagnostic tools like Event Viewer, System Information, and Task Manager.
+
+What does this tool report (System tab)?
+
+It reports basic system information like the operating system, processor, memory, DirectX version, and computer name.
+
+What information is listed on this page (Display tab)?
+
+It lists details about the graphics card, including the name, manufacturer, driver version, and DirectX features (e.g., DirectDraw, Direct3D).
+
+What information is listed on this page (Sound tab)?
+
+It lists the audio devices, driver information, and features like speaker output and sound rendering capabilities.
+
+What information is listed on this page (Input tab)?
+
+It lists input devices such as the keyboard, mouse, and any connected controllers.
+
+What information is listed on these extra tabs?
+
+Additional tabs include Network, showing networking details or specific rendering devices, respectively.
+
+Why would it be beneficial to turn off a service in the system configuration?
+
+Disabling unnecessary services can improve system performance, reduce boot time, and minimize the risk of security vulnerabilities.
+
+When would you use the startup tab of the system configuration tool?
+
+You would use the startup tab to control which applications load at startup, which can help troubleshoot performance issues or conflicts during boot-up.
+
+# 11.4.1.5 Lab - Work in the Windows Command Shell
+
+What happens when you press Enter?
+
+When you press Enter while viewing help information using help | more, it displays the next line of text. In contrast, pressing the spacebar advances the output by one full page.
+
+Functions of the following commands:
+
+Command	Function
+CD	Displays the name of the current directory or changes it to a specified directory.
+
+CHKDSK	Checks a disk and displays a status report.
+
+COPY	Copies one or more files to another location.
+
+DEL	Deletes one or more files.
+
+DIR	Displays a list of files and subdirectories in a directory.
+
+DISKPART	Manages disk partitions and volumes.
+
+EXIT	Exits the command prompt or the current script.
+
+FORMAT	Formats a disk for use with Windows.
+
+GPRESULT	Displays Group Policy information for a user or computer.
+
+MD	Creates a new directory.
+
+TASKLIST	Displays a list of currently running processes.
+
+RD	Removes a directory.
+
+ROBOCOPY	Robust file copy, a powerful command for copying files and directories.
+
+SHUTDOWN	Shuts down or restarts the computer.
+
+XCOPY	Copies files and directory trees.
+
+Creating nested directories
+
+How would you create these folders C:\Users\ITEUser\a\b\c if your current directory is C:\Users\ITEUser?
+
+shell
+Copy code
+md a\b\c
+
+What command would you use to verify the creation of the nested directories?
+
+shell
+Copy code
+cls
+
+Last command using command history
+
+When you press F7, a dialog box appears showing the command history. The last command you used can be identified in that list.
+
+Last command displayed using up arrow
+
+When you press the up arrow key, it cycles through the previous commands. The last command would be the one you entered before the current prompt.
+
+Exiting the command prompt
+
+To exit the command prompt, you can simply type:
+
+shell
+Copy code
+exit
+
+# 11.4.2.7 Lab - File System Commands
+
+What is the current directory?
+
+C:\Users\ITEUser.
+
+Which folder are you in now after typing cd ITEfolder3?
+
+ITEfolder3
+
+What command or commands did you use to create the nested folders ITEfolder4 and ITEfolder5?
+
+bash
+Copy code
+md ITEfolder4
+cd ITEfolder4
+md ITEfolder5
+
+After issuing the cd .. command, what is your directory now?
+
+C:\Users\ITEUser\ITEfolder3\ITEfolder4
+
+What would be the current directory if you issued this command at C:\Users\ITEUser\ITEfolder3\ITEfolder4?
+
+C:\Users\ITEUser\ITEfolder3
+
+What command did you use to delete all the files with doc2 in the filename?
+
+del doc2*
+
+What command would you use to delete all the files in the directory?
+
+del *.*
+
+What option allows you to copy all the files and directories, including empty directories?
+
+Answer: /E 
+
+Were you able to delete the directory (ITEfolder1)? Explain.
+
+No, I was not able to delete the directory because it was not empty. The command rd ITEfolder1 will only remove empty directories. You need to use rd /S ITEfolder1 to delete a non-empty directory, which prompts for confirmation.
+
+What are the advantages of using CLI vs. GUI?
+
+Speed: CLI can be faster for experienced users as commands can be executed quickly without navigating through menus.
+
+Automation: CLI allows for scripting and automation of repetitive tasks, which is not as straightforward in GUI.
+
+Resource Usage: CLI typically consumes fewer system resources than GUI applications.
+
+Access to More Features: Some advanced features and configurations are only accessible via the CLI.
+
+Remote Management: CLI is essential for managing systems remotely, especially in server environments.
+
+# 11.4.3.2 Lab - Disk CLI Commands
+
+What is the option to fix errors on the drive?
+
+/F
+
+What is the option to force the volume to dismount first if necessary?
+
+/X
+
+What is the option to locate bad sectors and recover readable information?
+
+/R
+
+What happened when you ran the chkdsk command on the C:\ drive?
+
+The command could not lock the current drive because it is in use by another process, and it prompted to schedule a check for the next system restart.
+
+What is the file system of the drive?
+
+NTFS.
+
+How many partitions are on the disk?
+
+Three partitions.
+
+What option is used to determine the maximum number of bytes that the volume can be shrunk by?
+
+QUERYMAX.
+
+What is the maximum number of reclaimable bytes?
+
+500 MB.
+
+# 11.4.4.2 Lab - Task and System CLI Commands
+
+What command would you use to display the results of tasklist one page at a time?
+
+tasklist | more
+
+What is the option to list the modules that are associated with a task?
+
+/M
+
+What command would you use if you want to find all the tasks that use the module oleaut32.dll? List a few tasks that use oleaut32.dll.
+
+tasklist /M oleaut32.dll
+examples could include explorer.exe, notepad.exe.
+
+What command would you use to find out all the tasks that are associated with your username?
+
+tasklist /FI "USERNAME eq ITEUser"
+
+What command would you use to find out all the processes that have been running for more than 1 hour and 40 minutes?
+
+tasklist /FI "RUNNIMETIME gt 100"
+
+What option would you use if you only wanted to scan the integrity of all the protected system files?
+
+/VERIFYONLY
+
+What would you add to the command so you can view the output one page at a time?
+
+| more
+
+Enter the command to log off your computer. Record the command below.
+
+shutdown /l
+
+Record the command below. What warning message did you see?
+
+shutdown /s /t 120
+
+Warning Message: "Windows will shut down in 120 seconds. Save your work."
+
+What command would you use to abort the shutdown?
+
+shutdown /a
+
+# 11.4.5.3 Lab - Other Useful Commands
+
+When does the password expire?
+
+Never
+
+
+
+
+
+
+
+
